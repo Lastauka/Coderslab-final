@@ -9,14 +9,15 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #eaff31;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  font-weight: 800;
+  color: black;
 }
 
 .App-link {
@@ -30,4 +31,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+.App-container {
+  display: inline-block;
+  width: 60%;
+  height: 100vh;
+}
+.Date-picker-container {
+  display: inline;
+}
+.Search-container {
+ display: inline;
+}
+.Grid-holder{
+  display: block;
+  width: 100%;
+}
+div[class*=RootBase-root-]{
+  display: block;
+}
+.date-input {
+  display: inline-block;
+  margin: 10px;
+}
+img.rounded {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
 }
